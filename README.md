@@ -1,22 +1,17 @@
 # 📚 Bestseller‑Anatomy
 
-A comprehensive narrative analytics platform that decodes the DNA of bestsellers through multi-dimensional analysis. By examining structural patterns, emotional arcs, and narrative techniques across successful novels, this project reveals the underlying mechanics that make stories resonate with readers. The project consists of two main components:
-
-1. A proprietary analysis engine (closed source) that powers the metrics
-2. An open-source web interface that provides:
-   - Deep insights into what makes bestsellers successful through comprehensive analysis of successful fictions
-   - Interactive metrics dashboard for analyzing your own manuscript
+A static showcase of narrative analysis across bestselling fiction. The site displays precomputed, interactive charts and a sample book-analysis dashboard. Its manuscript analyzer reads plain-text files locally in the browser and does not require a backend.
 
 ## 🚀 Live Demo
 
-👉 Analysis showcase: [https://v0-bestseller-website-design.vercel.app/](https://v0-bestseller-website-design.vercel.app/)
+👉 Analysis showcase: [https://bestseller-anatomy.vercel.app/](https://bestseller-anatomy.vercel.app/)
 
 The demo has two main features:
 - **Anatomy of a Bestseller** – Explore detailed insights and patterns from our analysis of successful novels, revealing the key elements that make stories resonate with readers
 
 ![Anatomy of a Bestseller](public/images/tab-1.png)
 
-- **Analyze My Book** – Upload your manuscript (TXT) to receive a comprehensive metrics dashboard showing how your story compares to bestseller patterns
+- **Analyze My Book** – Select a `.txt` manuscript to calculate word and sentence counts, estimated reading time, and chapter lengths in the browser. The manuscript is not uploaded. The example dashboard shown before analysis uses sample data.
 
 ![Analyze My Book](public/images/tab-2.png)
 
@@ -28,21 +23,14 @@ The demo has two main features:
 - **Comparative Market Analysis**: See how your book compares to current market trends
 - **Optimization Suggestions**: Receive data-driven recommendations to improve your manuscript's market potential
 
-### How It Works
-1. Upload your manuscript
-2. Our AI analyzes your text against our bestseller database
-3. Receive a comprehensive probability score
-4. Get detailed insights into:
-   - Market fit
-   - Reader engagement potential
-   - Competitive positioning
-   - Optimization opportunities
+### Browser-only analysis
+The local analyzer calculates basic structural statistics from a selected `.txt` file. It does not calculate qualitative measures such as emotion, tension, or literary quality. More advanced AI predictions would require a model that can run in the browser or an external service.
 
 ## 🔍 Project Architecture
 
-### 1) Analysis Engine (Proprietary)
+### Planned analysis engine (not included in the current app)
 
-The core analysis engine is built on extensive research and machine learning models. While the engine itself is not open source, here's what it does:
+The analysis engine is not included in this repository or required by the current static showcase. The research notes below describe the project’s analysis approach; they do not indicate a running backend.
 
 #### Research Foundation
 - Analyzed 80 contemporary bestsellers (≈ 8.3 M words)
@@ -77,13 +65,14 @@ The core analysis engine is built on extensive research and machine learning mod
 - Pattern recognition
 - Archetype identification
 
-### 2) Web Interface (Open Source)
+### Current static showcase
 
-This repository contains the open-source web interface that connects to the analysis engine. It provides:
+This repository contains the static web interface and its bundled chart data. It provides:
 
 #### Features
-- TXT file upload
-- Real-time analysis processing
+- Precomputed chart data served from `public/charts/`
+- Sample book dashboard data stored in the frontend
+- Local `.txt` manuscript statistics, calculated in the browser without uploading the file
 - Interactive visualizations
 - Comprehensive dashboards
 - Export capabilities
@@ -93,9 +82,8 @@ This repository contains the open-source web interface that connects to the anal
 | Component | Technology | Purpose |
 |-----------|------------|---------|
 | Frontend | Next.js 14, React 19 | User interface and interactions |
-| File Processing | Supabase Storage | Secure file handling |
-| Analysis Pipeline | Edge Functions | Serverless processing |
-| Data Storage | Supabase Postgres | Metrics persistence |
+| Chart data | Local JSON files | Bundled with the site; no runtime database request |
+| Sample dashboard | Local TypeScript data | Demonstration metrics only |
 | Visualization | Plotly.js, Recharts | Interactive charts |
 
 ## 🛠️ Tech Stack
@@ -107,7 +95,7 @@ This repository contains the open-source web interface that connects to the anal
 - **Component Library**: Radix UI
 - **Form Handling**: React Hook Form with Zod validation
 - **Data Visualization**: Plotly.js, Recharts
-- **Database**: Supabase
+- **Data**: Local JSON and TypeScript files; no backend required
 - **State Management**: React Hooks
 - **Date Handling**: date-fns
 
@@ -124,13 +112,7 @@ cd bestseller_anatomy
 pnpm install
 ```
 
-3. Set up environment variables:
-Create a `.env.local` file in the root directory with the following variables:
-```env
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
-```
+No environment variables are required for the current static showcase.
 
 ## 🏃‍♂️ Development
 

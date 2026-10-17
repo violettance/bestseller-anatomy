@@ -5,7 +5,7 @@ import { PodcastPlayer } from "@/components/podcast-player"
 import { TableOfContents } from "@/components/table-of-contents"
 import { useEffect, useState, useMemo } from "react"
 import { useMediaQuery } from "@/hooks/use-mobile"
-import { fetchChartData } from "@/lib/supabase"
+import { fetchChartData } from "@/lib/chart-data"
 import { Clock } from "lucide-react"
 
 // Define chart data type for better type safety
@@ -89,7 +89,7 @@ export function AnatomyTab() {
   ]
 
   useEffect(() => {
-    // Load chart data from Supabase
+    // Load bundled chart data from the site's public directory
     const loadChartData = async () => {
       try {
         setIsLoading(true)
@@ -243,7 +243,7 @@ export function AnatomyTab() {
         {/* Cover Image */}
         <div className="mb-6">
           <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cover-HQCX0FeaRbncrKhBU0XTKkgL7UJNR4.jpeg"
+            src="/images/cover.jpeg"
             alt="The Bestseller's Blueprint"
             className="w-full rounded-lg"
           />

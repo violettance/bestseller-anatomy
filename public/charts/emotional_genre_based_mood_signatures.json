@@ -1,0 +1,1275 @@
+{
+  "data": [
+    {
+      "cliponaxis": false,
+      "marker": {
+        "color": "#8b5cf6"
+      },
+      "name": "All Genres",
+      "text": [
+        "14.7%",
+        "13.7%",
+        "13.4%",
+        "13.3%",
+        "11.4%",
+        "5.7%",
+        "5.0%",
+        "4.8%",
+        "4.7%",
+        "4.6%",
+        "3.9%",
+        "2.5%",
+        "1.3%",
+        "1.1%"
+      ],
+      "textposition": "outside",
+      "visible": true,
+      "x": [
+        "Mysterious",
+        "Tense",
+        "Adventurous",
+        "Emotional",
+        "Dark",
+        "Hopeful",
+        "Reflective",
+        "Funny",
+        "Challenging",
+        "Sad",
+        "Lighthearted",
+        "Inspiring",
+        "Relaxing",
+        "Informative"
+      ],
+      "y": {
+        "dtype": "f8",
+        "bdata": "9ihcj8J1LUD2KFyPwnUrQGZmZmZm5ipACtejcD2KKkBcj8L1KNwmQK5H4XoUrhZAzczMzMzME0AUrkfhehQTQOF6FK5H4RJAcT0K16NwEkDNzMzMzMwOQNejcD0K1wNAKVyPwvUo9D9I4XoUrkfxPw=="
+      },
+      "type": "bar"
+    },
+    {
+      "cliponaxis": false,
+      "marker": {
+        "color": "#8b5cf6"
+      },
+      "name": "Romance",
+      "text": [
+        "16.7%",
+        "11.2%",
+        "9.5%",
+        "9.2%",
+        "8.4%",
+        "8.2%",
+        "8.1%",
+        "8.1%",
+        "5.4%",
+        "4.6%",
+        "4.1%",
+        "3.6%",
+        "2.4%",
+        "0.6%"
+      ],
+      "textposition": "outside",
+      "visible": false,
+      "x": [
+        "Emotional",
+        "Adventurous",
+        "Hopeful",
+        "Mysterious",
+        "Lighthearted",
+        "Dark",
+        "Funny",
+        "Tense",
+        "Reflective",
+        "Sad",
+        "Inspiring",
+        "Challenging",
+        "Relaxing",
+        "Informative"
+      ],
+      "y": {
+        "dtype": "f8",
+        "bdata": "uB6F61G4MEDsUbgehWsmQOxRuB6F6yJAZmZmZmZmIkA9CtejcL0gQM3MzMzMTCBArkfhehQuIECkcD0K1yMgQHsUrkfhehVAexSuR+F6EkBxPQrXo3AQQB+F61G4Hg1ASOF6FK5HA0CPwvUoXI\u002fiPw=="
+      },
+      "type": "bar"
+    },
+    {
+      "cliponaxis": false,
+      "marker": {
+        "color": "#8b5cf6"
+      },
+      "name": "Thriller",
+      "text": [
+        "21.3%",
+        "19.9%",
+        "16.4%",
+        "14.3%",
+        "8.6%",
+        "5.0%",
+        "3.5%",
+        "2.7%",
+        "2.4%",
+        "2.2%",
+        "1.7%",
+        "0.9%",
+        "0.8%",
+        "0.2%"
+      ],
+      "textposition": "outside",
+      "visible": false,
+      "x": [
+        "Tense",
+        "Mysterious",
+        "Adventurous",
+        "Dark",
+        "Emotional",
+        "Challenging",
+        "Sad",
+        "Funny",
+        "Hopeful",
+        "Reflective",
+        "Informative",
+        "Inspiring",
+        "Lighthearted",
+        "Relaxing"
+      ],
+      "y": {
+        "dtype": "f8",
+        "bdata": "CtejcD1KNUCuR+F6FO4zQKRwPQrXYzBAFK5H4XqULECamZmZmRkhQM3MzMzMzBNAUrgehetRDECamZmZmZkFQEjhehSuRwNAAAAAAAAAAkAK16NwPQr7PxSuR+F6FO4\u002fPQrXo3A96j8AAAAAAADQPw=="
+      },
+      "type": "bar"
+    },
+    {
+      "cliponaxis": false,
+      "marker": {
+        "color": "#8b5cf6"
+      },
+      "name": "Mystery",
+      "text": [
+        "23.7%",
+        "16.5%",
+        "13.3%",
+        "9.9%",
+        "9.8%",
+        "4.5%",
+        "4.4%",
+        "4.4%",
+        "4.1%",
+        "3.0%",
+        "2.9%",
+        "1.4%",
+        "1.3%",
+        "0.8%"
+      ],
+      "textposition": "outside",
+      "visible": false,
+      "x": [
+        "Mysterious",
+        "Tense",
+        "Dark",
+        "Adventurous",
+        "Emotional",
+        "Sad",
+        "Reflective",
+        "Challenging",
+        "Funny",
+        "Hopeful",
+        "Lighthearted",
+        "Inspiring",
+        "Informative",
+        "Relaxing"
+      ],
+      "y": {
+        "dtype": "f8",
+        "bdata": "cT0K16OwN0C4HoXrUXgwQKRwPQrXoypAw\u002fUoXI\u002fCI0AUrkfhepQjQAAAAAAAABJAw\u002fUoXI\u002fCEUB7FK5H4XoRQEjhehSuRxBAFK5H4XoUCEBxPQrXo3AHQArXo3A9Cvc\u002fSOF6FK5H9T\u002f2KFyPwvXoPw=="
+      },
+      "type": "bar"
+    },
+    {
+      "cliponaxis": false,
+      "marker": {
+        "color": "#8b5cf6"
+      },
+      "name": "Fantasy",
+      "text": [
+        "21.4%",
+        "14.6%",
+        "14.1%",
+        "13.7%",
+        "12.8%",
+        "6.3%",
+        "4.6%",
+        "3.6%",
+        "3.4%",
+        "2.5%",
+        "1.8%",
+        "0.8%",
+        "0.4%",
+        "0.2%"
+      ],
+      "textposition": "outside",
+      "visible": false,
+      "x": [
+        "Adventurous",
+        "Dark",
+        "Emotional",
+        "Tense",
+        "Mysterious",
+        "Challenging",
+        "Sad",
+        "Hopeful",
+        "Funny",
+        "Reflective",
+        "Inspiring",
+        "Lighthearted",
+        "Informative",
+        "Relaxing"
+      ],
+      "y": {
+        "dtype": "f8",
+        "bdata": "7FG4HoVrNUAfhetRuB4tQKRwPQrXIyxAcT0K16NwK0AUrkfhepQpQD0K16NwPRlAUrgehetREkCPwvUoXI8MQB+F61G4HgtAw\u002fUoXI\u002fCA0B7FK5H4Xr8P1K4HoXrUeg\u002fPQrXo3A92j97FK5H4XrEPw=="
+      },
+      "type": "bar"
+    },
+    {
+      "cliponaxis": false,
+      "marker": {
+        "color": "#8b5cf6"
+      },
+      "name": "Literary Fiction",
+      "text": [
+        "21.7%",
+        "20.7%",
+        "8.7%",
+        "7.8%",
+        "7.3%",
+        "6.3%",
+        "6.2%",
+        "4.8%",
+        "3.8%",
+        "3.5%",
+        "3.1%",
+        "2.2%",
+        "2.1%",
+        "1.8%"
+      ],
+      "textposition": "outside",
+      "visible": false,
+      "x": [
+        "Emotional",
+        "Reflective",
+        "Sad",
+        "Hopeful",
+        "Challenging",
+        "Funny",
+        "Dark",
+        "Inspiring",
+        "Mysterious",
+        "Tense",
+        "Adventurous",
+        "Informative",
+        "Lighthearted",
+        "Relaxing"
+      ],
+      "y": {
+        "dtype": "f8",
+        "bdata": "MzMzMzOzNUBxPQrXo7A0QHE9CtejcCFASOF6FK5HH0AUrkfhehQdQClcj8L1KBlAmpmZmZmZGEApXI\u002fC9SgTQKRwPQrXow5Aw\u002fUoXI\u002fCC0C4HoXrUbgIQNejcD0K1wFAMzMzMzMzAUAfhetRuB79Pw=="
+      },
+      "type": "bar"
+    },
+    {
+      "cliponaxis": false,
+      "marker": {
+        "color": "#8b5cf6"
+      },
+      "name": "Drama",
+      "text": [
+        "20.5%",
+        "15.5%",
+        "11.5%",
+        "9.4%",
+        "7.1%",
+        "7.0%",
+        "5.1%",
+        "5.1%",
+        "4.9%",
+        "4.3%",
+        "3.3%",
+        "3.2%",
+        "2.5%",
+        "0.6%"
+      ],
+      "textposition": "outside",
+      "visible": false,
+      "x": [
+        "Emotional",
+        "Hopeful",
+        "Reflective",
+        "Lighthearted",
+        "Adventurous",
+        "Sad",
+        "Tense",
+        "Inspiring",
+        "Relaxing",
+        "Mysterious",
+        "Dark",
+        "Challenging",
+        "Funny",
+        "Informative"
+      ],
+      "y": {
+        "dtype": "f8",
+        "bdata": "w\u002fUoXI+CNEAK16NwPQovQPYoXI\u002fC9SZAw\u002fUoXI\u002fCIkBcj8L1KFwcQNejcD0K1xtAj8L1KFyPFEBI4XoUrkcUQJqZmZmZmRNAPQrXo3A9EUBmZmZmZmYKQAAAAAAAAApArkfhehSuA0DXo3A9CtfjPw=="
+      },
+      "type": "bar"
+    }
+  ],
+  "layout": {
+    "template": {
+      "data": {
+        "histogram2dcontour": [
+          {
+            "type": "histogram2dcontour",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "choropleth": [
+          {
+            "type": "choropleth",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "histogram2d": [
+          {
+            "type": "histogram2d",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "heatmap": [
+          {
+            "type": "heatmap",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "contourcarpet": [
+          {
+            "type": "contourcarpet",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "contour": [
+          {
+            "type": "contour",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "surface": [
+          {
+            "type": "surface",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "mesh3d": [
+          {
+            "type": "mesh3d",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "scatter": [
+          {
+            "fillpattern": {
+              "fillmode": "overlay",
+              "size": 10,
+              "solidity": 0.2
+            },
+            "type": "scatter"
+          }
+        ],
+        "parcoords": [
+          {
+            "type": "parcoords",
+            "line": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterpolargl": [
+          {
+            "type": "scatterpolargl",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "bar": [
+          {
+            "error_x": {
+              "color": "#2a3f5f"
+            },
+            "error_y": {
+              "color": "#2a3f5f"
+            },
+            "marker": {
+              "line": {
+                "color": "#E5ECF6",
+                "width": 0.5
+              },
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "bar"
+          }
+        ],
+        "scattergeo": [
+          {
+            "type": "scattergeo",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterpolar": [
+          {
+            "type": "scatterpolar",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "histogram": [
+          {
+            "marker": {
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "histogram"
+          }
+        ],
+        "scattergl": [
+          {
+            "type": "scattergl",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatter3d": [
+          {
+            "type": "scatter3d",
+            "line": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scattermap": [
+          {
+            "type": "scattermap",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scattermapbox": [
+          {
+            "type": "scattermapbox",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterternary": [
+          {
+            "type": "scatterternary",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scattercarpet": [
+          {
+            "type": "scattercarpet",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "carpet": [
+          {
+            "aaxis": {
+              "endlinecolor": "#2a3f5f",
+              "gridcolor": "white",
+              "linecolor": "white",
+              "minorgridcolor": "white",
+              "startlinecolor": "#2a3f5f"
+            },
+            "baxis": {
+              "endlinecolor": "#2a3f5f",
+              "gridcolor": "white",
+              "linecolor": "white",
+              "minorgridcolor": "white",
+              "startlinecolor": "#2a3f5f"
+            },
+            "type": "carpet"
+          }
+        ],
+        "table": [
+          {
+            "cells": {
+              "fill": {
+                "color": "#EBF0F8"
+              },
+              "line": {
+                "color": "white"
+              }
+            },
+            "header": {
+              "fill": {
+                "color": "#C8D4E3"
+              },
+              "line": {
+                "color": "white"
+              }
+            },
+            "type": "table"
+          }
+        ],
+        "barpolar": [
+          {
+            "marker": {
+              "line": {
+                "color": "#E5ECF6",
+                "width": 0.5
+              },
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "barpolar"
+          }
+        ],
+        "pie": [
+          {
+            "automargin": true,
+            "type": "pie"
+          }
+        ]
+      },
+      "layout": {
+        "autotypenumbers": "strict",
+        "colorway": [
+          "#636efa",
+          "#EF553B",
+          "#00cc96",
+          "#ab63fa",
+          "#FFA15A",
+          "#19d3f3",
+          "#FF6692",
+          "#B6E880",
+          "#FF97FF",
+          "#FECB52"
+        ],
+        "font": {
+          "color": "#2a3f5f"
+        },
+        "hovermode": "closest",
+        "hoverlabel": {
+          "align": "left"
+        },
+        "paper_bgcolor": "white",
+        "plot_bgcolor": "#E5ECF6",
+        "polar": {
+          "bgcolor": "#E5ECF6",
+          "angularaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "radialaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          }
+        },
+        "ternary": {
+          "bgcolor": "#E5ECF6",
+          "aaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "baxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "caxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          }
+        },
+        "coloraxis": {
+          "colorbar": {
+            "outlinewidth": 0,
+            "ticks": ""
+          }
+        },
+        "colorscale": {
+          "sequential": [
+            [
+              0.0,
+              "#0d0887"
+            ],
+            [
+              0.1111111111111111,
+              "#46039f"
+            ],
+            [
+              0.2222222222222222,
+              "#7201a8"
+            ],
+            [
+              0.3333333333333333,
+              "#9c179e"
+            ],
+            [
+              0.4444444444444444,
+              "#bd3786"
+            ],
+            [
+              0.5555555555555556,
+              "#d8576b"
+            ],
+            [
+              0.6666666666666666,
+              "#ed7953"
+            ],
+            [
+              0.7777777777777778,
+              "#fb9f3a"
+            ],
+            [
+              0.8888888888888888,
+              "#fdca26"
+            ],
+            [
+              1.0,
+              "#f0f921"
+            ]
+          ],
+          "sequentialminus": [
+            [
+              0.0,
+              "#0d0887"
+            ],
+            [
+              0.1111111111111111,
+              "#46039f"
+            ],
+            [
+              0.2222222222222222,
+              "#7201a8"
+            ],
+            [
+              0.3333333333333333,
+              "#9c179e"
+            ],
+            [
+              0.4444444444444444,
+              "#bd3786"
+            ],
+            [
+              0.5555555555555556,
+              "#d8576b"
+            ],
+            [
+              0.6666666666666666,
+              "#ed7953"
+            ],
+            [
+              0.7777777777777778,
+              "#fb9f3a"
+            ],
+            [
+              0.8888888888888888,
+              "#fdca26"
+            ],
+            [
+              1.0,
+              "#f0f921"
+            ]
+          ],
+          "diverging": [
+            [
+              0,
+              "#8e0152"
+            ],
+            [
+              0.1,
+              "#c51b7d"
+            ],
+            [
+              0.2,
+              "#de77ae"
+            ],
+            [
+              0.3,
+              "#f1b6da"
+            ],
+            [
+              0.4,
+              "#fde0ef"
+            ],
+            [
+              0.5,
+              "#f7f7f7"
+            ],
+            [
+              0.6,
+              "#e6f5d0"
+            ],
+            [
+              0.7,
+              "#b8e186"
+            ],
+            [
+              0.8,
+              "#7fbc41"
+            ],
+            [
+              0.9,
+              "#4d9221"
+            ],
+            [
+              1,
+              "#276419"
+            ]
+          ]
+        },
+        "xaxis": {
+          "gridcolor": "white",
+          "linecolor": "white",
+          "ticks": "",
+          "title": {
+            "standoff": 15
+          },
+          "zerolinecolor": "white",
+          "automargin": true,
+          "zerolinewidth": 2
+        },
+        "yaxis": {
+          "gridcolor": "white",
+          "linecolor": "white",
+          "ticks": "",
+          "title": {
+            "standoff": 15
+          },
+          "zerolinecolor": "white",
+          "automargin": true,
+          "zerolinewidth": 2
+        },
+        "scene": {
+          "xaxis": {
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "white",
+            "gridwidth": 2
+          },
+          "yaxis": {
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "white",
+            "gridwidth": 2
+          },
+          "zaxis": {
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "white",
+            "gridwidth": 2
+          }
+        },
+        "shapedefaults": {
+          "line": {
+            "color": "#2a3f5f"
+          }
+        },
+        "annotationdefaults": {
+          "arrowcolor": "#2a3f5f",
+          "arrowhead": 0,
+          "arrowwidth": 1
+        },
+        "geo": {
+          "bgcolor": "white",
+          "landcolor": "#E5ECF6",
+          "subunitcolor": "white",
+          "showland": true,
+          "showlakes": true,
+          "lakecolor": "white"
+        },
+        "title": {
+          "x": 0.05
+        },
+        "mapbox": {
+          "style": "light"
+        }
+      }
+    },
+    "font": {
+      "size": 13
+    },
+    "xaxis": {
+      "title": {
+        "text": ""
+      },
+      "showgrid": false
+    },
+    "yaxis": {
+      "title": {
+        "text": ""
+      },
+      "showgrid": false,
+      "showticklabels": false
+    },
+    "updatemenus": [
+      {
+        "active": 0,
+        "buttons": [
+          {
+            "args": [
+              {
+                "visible": [
+                  true,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "title": "Genre-Based Mood Signatures \u2014 All Genres"
+              }
+            ],
+            "label": "All Genres",
+            "method": "update"
+          },
+          {
+            "args": [
+              {
+                "visible": [
+                  false,
+                  true,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "title": "Genre-Based Mood Signatures \u2014 Romance"
+              }
+            ],
+            "label": "Romance",
+            "method": "update"
+          },
+          {
+            "args": [
+              {
+                "visible": [
+                  false,
+                  false,
+                  true,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "title": "Genre-Based Mood Signatures \u2014 Thriller"
+              }
+            ],
+            "label": "Thriller",
+            "method": "update"
+          },
+          {
+            "args": [
+              {
+                "visible": [
+                  false,
+                  false,
+                  false,
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "title": "Genre-Based Mood Signatures \u2014 Mystery"
+              }
+            ],
+            "label": "Mystery",
+            "method": "update"
+          },
+          {
+            "args": [
+              {
+                "visible": [
+                  false,
+                  false,
+                  false,
+                  false,
+                  true,
+                  false,
+                  false
+                ]
+              },
+              {
+                "title": "Genre-Based Mood Signatures \u2014 Fantasy"
+              }
+            ],
+            "label": "Fantasy",
+            "method": "update"
+          },
+          {
+            "args": [
+              {
+                "visible": [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              },
+              {
+                "title": "Genre-Based Mood Signatures \u2014 Literary Fiction"
+              }
+            ],
+            "label": "Literary Fiction",
+            "method": "update"
+          },
+          {
+            "args": [
+              {
+                "visible": [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  true
+                ]
+              },
+              {
+                "title": "Genre-Based Mood Signatures \u2014 Drama"
+              }
+            ],
+            "label": "Drama",
+            "method": "update"
+          }
+        ],
+        "showactive": true,
+        "x": 1.0,
+        "y": 1.15
+      }
+    ],
+    "plot_bgcolor": "white",
+    "paper_bgcolor": "white",
+    "title": {
+      "text": "Genre-Based Mood Signatures - All Genres"
+    }
+  }
+}

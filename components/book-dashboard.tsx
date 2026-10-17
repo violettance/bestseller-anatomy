@@ -2,17 +2,15 @@
 
 import type React from "react"
 import { BarChart3, LineChart, Activity, Clock, BookOpen, BookOpenText, Donut, Brain, Lightbulb } from "lucide-react"
-import { useBookData } from "@/lib/use-book-data"
-import { mockBookTitle } from "@/lib/mock-book-data"
+import { mockBookMetrics, mockChapterMetrics, mockBookTitle } from "@/lib/mock-book-data"
 
 interface BookDashboardProps {
   bookTitle?: string
-  isUploaded?: boolean
 }
 
-export function BookDashboard({ bookTitle = mockBookTitle, isUploaded = false }: BookDashboardProps) {
-  // useBookData hook'unu kullanarak veri çekme işlemini yönet
-  const { isLoading, error, bookMetrics, chapterMetrics, isUsingMockData } = useBookData(bookTitle, isUploaded)
+export function BookDashboard({ bookTitle = mockBookTitle }: BookDashboardProps) {
+  const bookMetrics = mockBookMetrics
+  const chapterMetrics = mockChapterMetrics
 
   // Veri normalizasyon yardımcı fonksiyonu
   const normalizeData = (data: any[], key: string) => {
@@ -451,45 +449,13 @@ export function BookDashboard({ bookTitle = mockBookTitle, isUploaded = false }:
     </Card>
   )
 
-  // Yükleme durumunda loading göster
-  if (isLoading) {
-    return (
-      <section className="w-full px-4 lg:px-6">
-        <Card className="mb-6 flex items-center justify-center py-12">
-          <div className="text-center">
-            <div className="inline-block animate-spin rounded-full h-8 w-8 border-t-2 border-[#8b5cf6] border-r-2 border-b-2 border-transparent mb-4"></div>
-            <p className="text-zinc-300">Loading book analysis data...</p>
-          </div>
-        </Card>
-      </section>
-    )
-  }
-
-  // Hata durumunda hata mesajı göster
-  if (error) {
-    return (
-      <section className="w-full px-4 lg:px-6">
-        <Card className="mb-6">
-          <div className="text-center py-8">
-            <h3 className="text-xl font-semibold text-red-400 mb-2">Error Loading Data</h3>
-            <p className="text-zinc-300">{error.message}</p>
-            <p className="text-zinc-400 mt-4">Showing mock data instead</p>
-          </div>
-        </Card>
-      </section>
-    )
-  }
-
   return (
     <section className="w-full px-4 lg:px-6">
-      {isUsingMockData && isUploaded && (
-        <div className="bg-amber-900/30 border border-amber-700/50 rounded-lg p-4 mb-6 text-amber-200">
-          <p className="text-sm">
-            <strong>Note:</strong> Using sample data for demonstration. Real analysis will be available when your book
-            is processed.
-          </p>
-        </div>
-      )}
+      <div className="bg-amber-900/30 border border-amber-700/50 rounded-lg p-4 mb-6 text-amber-200">
+        <p className="text-sm">
+          <strong>Sample dashboard:</strong> These metrics are example data and do not come from an uploaded manuscript.
+        </p>
+      </div>
 
       <Card className="mb-6">
         <header className="mb-6">
